@@ -2,9 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  basePath: "nacosgsu",
   output: "export",
   reactStrictMode: true,
-  distDir: "../public"
 };
 
 export default nextConfig;
